@@ -1,6 +1,12 @@
+# BÁO CÁO CÁ NHÂN - DỰ ÁN PHẦN MỀM TRÒ CHƠI TRẮC NGHIỆM QUIZY
+
+**Họ tên:** Trần Thế Vượng<br/>
+**MSSV:** 17021142<br/>
+**Nhóm:** 19
+
 ## USER STORY
 
-	Là một người chơi, tôi muốn có một bảng xếp hạng level để biết mình đang ở dâu.
+	Là một người chơi, tôi muốn có một bảng xếp hạng level để biết mình đang ở đâu.
 
 ## Đánh giá dựa trên INVEST
 
@@ -18,9 +24,9 @@
 
 ## Các công việc cần làm
 
-- [x] Thu thập, phân tích và xử lý yêu cầu (1h) (tài liệu: [Specifications](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.fvjpas4blmex) )
+- [x] Thu thập, phân tích và xử lý yêu cầu (tài liệu: [Specifications](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.fvjpas4blmex) )
 
-- [x] Viết User story. Đánh giá User story theo tiêu chí INVEST (30p) (tài liệu: [INVEST Guidelines](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.q7gf6fh2jgdn) )
+- [x] Viết User story. Đánh giá User story theo tiêu chí INVEST (tài liệu: [INVEST Guidelines](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.q7gf6fh2jgdn) )
 
 - [x] Xác định các Component cần cho User story
 
@@ -44,7 +50,29 @@
 
 	+ Kiểm thử hộp đen (tài liệu: [Black box testing](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.zhrswbsdiifd) )
 	+ Kiểm thử hộp trắng (tài liệu: [White box testing](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.ryzy80x4sqk1) )
+	
+- [x] Tái cấu trúc mã nguồn, cải tiến các đoạn mã nguồn chưa tối ưu (tài liệu: [Refactoring](http://bit.ly/2UxULb2) )
+
+- [x] Thêm comment vào các vị trí cần thiết để code dễ đọc và quản lí hơn (tài liệu: [Rules for commenting code](https://www.hongkiat.com/blog/source-code-comment-styling-tips/), commit: [link](url))
 
 ## Giới thiệu/hướng dẫn sử dụng tính năng của sản phẩm trên sản phẩm 
-- [Video](url)
+
+- **Tính năng:** Bảng xếp hạng
+
+- **Mục đích:** Người dùng có thể xem cấp độ của mình, so sánh với những người chơi khác
+
+- **Hướng dẫn:** Sau khi đăng nhập thành công, người dùng chỉ cần click vào *Bảng xếp hạng* ở *Header*
+
+	![hướng dẫn](https://user-images.githubusercontent.com/38174506/57599868-5132e900-7582-11e9-971b-252a33e2f16f.png)
+
+	+ Bảng xếp hạng có TOP 10 người chơi có thành tích cao nhất và bao gồm người chơi hiện tại
+	+ Vị trí TOP 3 có 3 màu sắc khác nhau và không thay đổi, kể cả khi người đang chơi ở TOP 3
+	+ Nếu người đang chơi ngoài TOP 3, vị trí người đang chơi có màu nền là xanh
+	
+	![từ vị trí 12 trở xuống](https://user-images.githubusercontent.com/38174506/57599920-7293d500-7582-11e9-9181-7aaf141976df.png)
+	![vị trí 11](https://user-images.githubusercontent.com/38174506/57599934-79bae300-7582-11e9-90ed-870650fbbf9c.png)
+	![vị trí từ 4 đến 10](https://user-images.githubusercontent.com/38174506/57599948-80e1f100-7582-11e9-9a7c-30ce996e8420.png)
+	![Vị trí trong top 3](https://user-images.githubusercontent.com/38174506/57599954-87706880-7582-11e9-80d6-33523e3c8894.png)
+
+- [Video](https://youtu.be/5gy_JDLU8Kw)
 
